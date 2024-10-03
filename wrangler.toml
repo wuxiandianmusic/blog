@@ -5,8 +5,8 @@ account_id = "your-account-id"
 workers_dev = true
 compatibility_date = "2024-10-03"
 
-main_module = "_worker.js" # 指定主模块
+main_module = "_worker.js"
 
 kv_namespaces = [
-  { binding = "MY_KV_NAMESPACE", id = "your-kv-id" } # 替换为你的 KV ID
+  { binding = "MY_KV_NAMESPACE", id = {env = "KV_ID"}} # 使用环境变量
 ]
