@@ -1,0 +1,10 @@
+name = "my-blog"
+type = "javascript"
+
+account_id = "your-account-id"
+workers_dev = true
+compatibility_date = "2024-10-03"
+
+kv_namespaces = [
+  { binding = "MY_KV_NAMESPACE", id = "your-kv-id" }
+]
